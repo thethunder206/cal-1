@@ -3,5 +3,5 @@ requests
 google-auth
 google-auth-oauthlib
 google-auth-httplib2
-googleapiclient
-gunicorn  # Required for deployment on Render
+google-api-python-client  # ✅ Correct package name
+gunicorn  # Required for Render deployment
