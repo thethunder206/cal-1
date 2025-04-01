@@ -10,7 +10,7 @@ app.secret_key = "your_secret_key_here"  # Change this for security
 # Google OAuth Config
 CLIENT_ID = "357347057692-lpmistphf2al5cqfttgvmbmhjobb9hgk.apps.googleusercontent.com"
 CLIENT_SECRET = "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"
-REDIRECT_URI = "https://cal-1.onrender.com/callback"  # Updated URL
+REDIRECT_URI = "https://cal-1-dv3f.onrender.com/callback"  # ✅ Updated URL
 SCOPES = ["https://www.googleapis.com/auth/calendar.readonly"]
 
 # Google OAuth flow setup
