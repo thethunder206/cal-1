@@ -81,4 +81,6 @@ def get_calendar():
     return jsonify(events)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    from waitress import serve  # Use Waitress instead of Gunicorn for Render
+    serve(app, host="0.0.0.0", port=8080)
+
